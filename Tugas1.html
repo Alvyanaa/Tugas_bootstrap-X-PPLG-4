@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+    
+<style>
+
+    .hero {
+        background-image: url("./img/29f28b5acf81e9a5a52fd82d83f4ffd2.jpg"); /* ganti dengan gambar kamu */
+        background-size: cover;
+        background-position: center;
+        min-height: 50vh;
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5); /* efek gelap */
+        min-height: 70vh;
+    }
+</style>
+</head>
+<body>
+    <div class="hero">
+    
+<div class="overlay d-flex justify-content-center align-items-center text-center">
+
+    <div class="text-white">
+    <h1 class="display-5 fw-bold">Sistem Manajemen Siswa</h1>
+
+    <p class="fs-5">Kelola data kehadiran profil, dan status akademik siswa dengan lebih mudah dan efisien.</p>
+    <button class="btn btn-primary btn-Ig">Lihat Tabel</button>
+    <button class="btn btn-outline-light btn-Ig">Panduan</button>
+    <button></button>
+    </div>
+</div>
+</div>
+
+<br>  
+
+<div class="container text-center">
+        <h2 align="center">Tabel Data Siswa</h2>
+        <p align="center">Contoh penggunaan Tabel Gambar, dan Button Bootstrap</p>
+
+        <br>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr class="table-dark" align="center">
+            
+           <th>No</th>
+           <th>Foto</th>
+           <th>Nama</th>
+           <th>Kelas</th>
+           <th>Status</th>
+           <th>Aksi</th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        <tr align="center">
+            <td>1</td>
+            <td>
+                <div class="img-fluid"></div>
+                <img src="../XPPLG4_Alvyana/8292d7783cec70bd9e0671f9230eb1c0.jpg" alt="Foto"
+                 class="rounded-circle d-block mx-auto" 
+                 width="60" height="60">
+            </td>
+            <td>Andy</td>
+            <td>X PPLG 1</td>
+            <td><span class="badge bg-success">Aktif</span></td>
+            <td><span class="badge bg-warning">Edit</span> <span class="badge bg-danger">Hapus</span></td>
+        </tr>
+
+        <tr align="center">
+            <td>2</td>
+        <td>
+            <div class="img-fluid"></div>
+            <img src="../XPPLG4_Alvyana/9c2da09d7050313908790856a3cf4b03.jpg" alt="Foto"
+             class="rounded-circle d-block mx-auto" 
+             width="60" height="60">
+        </td>
+        <td>Nana</td>
+        <td>X PPLG 4</td>
+        <td><span class="badge bg-warning">Izin</span></td>
+        <td><span class="badge bg-warning">Edit</span> <span class="badge bg-danger">Hapus</span></td>
+        </tr>
+
+        <tr align="center">
+            <td>3</td>
+            <td><div class="img-fluid"></div>
+            <img src="../XPPLG4_Alvyana/09a42a4d83f931a8a2e8d941295df2c0.jpg" alt="Foto"
+             class="rounded-circle d-block mx-auto" 
+             width="60" height="60">
+             </td>
+
+            <td>Aji</td>
+            <td>X PPLG 3</td>
+            <td><span class="badge bg-danger">Tidak hadir</span></td>
+            <td><span class="badge bg-warning">Edit</span> <span class="badge bg-danger">Hapus</span></td>
+        </tr>
+    
+    </tbody>
+</table>
+
+<button class="btn btn-primary btn-sm">Tambah Data</button>
+    <button class="btn btn-outline-secondary btn-sm">Ekspor Excel</button>
+
+    </div>
+
+</body>
+</html>
